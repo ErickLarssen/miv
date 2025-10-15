@@ -2122,3 +2122,52 @@ textarea.form-input::-webkit-resizer {
   }
 
 }
+
+/*-----------------------------------*\
+  #AJUSTES PARA DISPOSITIVOS MÓVEIS (até 480px)
+\*-----------------------------------*/
+@media (max-width: 480px) {
+  .logo-box img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .margem-seguranca img,
+  .reducao-maxima img,
+  .clients-item img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .testimonials-modal {
+    width: 90%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .modal-avatar-box img {
+    width: 50px;
+  }
+
+  .modal-content p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .modal-content {
+    padding: 5px;
+  }
+
+  .testimonials-item-title {
+    font-size: 14px;
+  }
+
+  .testimonials-text p {
+    font-size: 13px;
+  }
+
+}
