@@ -886,10 +886,198 @@ main {
   line-height: 1.6;
 }
 
+/*-----------------------------------*\
+  #TONE SCALE
+\*-----------------------------------*/
 
+.tone-scale {
+  margin-top: 60px;
+}
+
+.tone-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tone-example {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tone-list {
+  display: grid;
+  gap: 20px;
+}
+
+.tone-item .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tone-progress-bg {
+  width: 100%;
+  height: 8px;
+  background-color: var(--light-gray, #e0e0e0);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tone-progress-fill {
+  height: 100%;
+  background-color: var(--gray, #555);
+  border-radius: 8px 0 0 8px;
+  transition: width 0.4s ease;
+}
+
+/*-----------------------------------*\
+  #APLICAÇÕES CORRETAS E INCORRETAS
+\*-----------------------------------*/
+
+.brand-usage {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.brand-usage-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.brand-usage-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.usage-column {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.usage-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--text-color, #333);
+}
+
+.usage-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.usage-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.usage-item img:hover {
+  transform: scale(1.03);
+}
+
+.correct .usage-item img {
+  border: 3px solid #4caf50; /* verde */
+}
+
+.incorrect .usage-item img {
+  border: 3px solid #f44336; /* vermelho */
+  opacity: 0.9;
+}
+
+.usage-item figcaption {
+  font-size: 14px;
+  color: var(--text-muted, #555);
+  margin-top: 8px;
+}
+
+/* Ícones opcionais ✅ e ❌ */
+.correct .usage-item::before,
+.incorrect .usage-item::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.correct .usage-item::before {
+  content: '✅';
+}
+
+.incorrect .usage-item::before {
+  content: '❌';
+}
+
+/*-----------------------------------*\
+  #TIPOGRAFIA INSTITUCIONAL
+\*-----------------------------------*/
+
+.brand-typography {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.brand-typography-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.typography-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.typography-column {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.typography-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--text-color, #333);
+}
+
+.typography-item {
+  margin-bottom: 25px;
+}
+
+.typography-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.typography-item img:hover {
+  transform: scale(1.03);
+}
+
+.typography-item figcaption {
+  font-size: 14px;
+  color: var(--text-muted, #555);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+  
 /**
  * skills 
- */
+
 
 .skills-title {
   margin-bottom: 20px;
@@ -929,6 +1117,7 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+ */
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -2168,6 +2357,41 @@ textarea.form-input::-webkit-resizer {
 
   .testimonials-text p {
     font-size: 13px;
+  }
+  
+  .tone-example img {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .tone-title {
+    font-size: 18px;
+  }
+  
+  .brand-usage-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .usage-column {
+    max-width: 90%;
+  }
+
+  .brand-usage-title {
+    font-size: 20px;
+  }
+  
+  .typography-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .typography-column {
+    max-width: 90%;
+  }
+
+  .brand-typography-title {
+    font-size: 20px;
   }
 
 }

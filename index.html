@@ -173,7 +173,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Aplicações</button>
           </li>
 
           <li class="navbar-item">
@@ -529,68 +529,98 @@
           </figure>
 
         </section>
+        <section class="tone-scale" data-page="tone-scale">
+          <h3 class="h3 tone-title">Aplicação em Tons de Cinza</h3>
 
-        <section class="skill">
+          <figure class="tone-example">
+            <img src="./assets/images/logo-cinza-70.png" alt="Logo 70% Cinza" width="300">
+          </figure>
 
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
+          <ul class="tone-list">
+            <li class="tone-item">
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">70% Preto</h5>
                 <data value="70">70%</data>
               </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+              <div class="tone-progress-bg">
+                <div class="tone-progress-fill" style="width: 70%;"></div>
               </div>
-
             </li>
-
-            <li class="skills-item">
-
+        
+            <li class="tone-item">
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
+                <h5 class="h5">50% Preto</h5>
                 <data value="50">50%</data>
               </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+              <div class="tone-progress-bg">
+                <div class="tone-progress-fill" style="width: 50%;"></div>
               </div>
-
             </li>
-
           </ul>
-
         </section>
+        
+        <!-- Seção de Aplicações Corretas e Incorretas -->
+        <section class="brand-usage" data-page="brand-usage">
+          <h3 class="h3 brand-usage-title">Aplicações Corretas e Incorretas</h3>
+        
+          <div class="brand-usage-container">
+        
+            <!-- Aplicações Corretas -->
+            <div class="usage-column correct">
+              <h4 class="h4">Aplicações Corretas</h4>
+        
+              <figure class="usage-item">
+                <img src="./assets/images/logo-fundo-claro.png" alt="Logo em fundo claro">
+                <figcaption>Uso sobre fundo claro</figcaption>
+              </figure>
+        
+              <figure class="usage-item">
+                <img src="./assets/images/logo-fundo-escuro.png" alt="Logo em fundo escuro">
+                <figcaption>Uso sobre fundo escuro</figcaption>
+              </figure>
+            </div>
+        
+            <!-- Aplicações Incorretas -->
+            <div class="usage-column incorrect">
+              <h4 class="h4">Aplicações Incorretas</h4>
+        
+              <figure class="usage-item">
+                <img src="./assets/images/logo-distorcido.png" alt="Logo distorcido">
+                <figcaption>Não distorcer o logotipo</figcaption>
+              </figure>
+        
+              <figure class="usage-item">
+                <img src="./assets/images/logo-com-sombra.png" alt="Logo com sombra">
+                <figcaption>Evitar efeitos e sombras</figcaption>
+              </figure>
+            </div>
+        
+          </div>
+        </section>
+        
+        <!-- Seção de Tipografia Institucional -->
+        <section class="brand-typography" data-page="brand-typography">
+          <h3 class="h3 brand-typography-title">Tipografia Institucional</h3>
+        
+          <div class="typography-container">
+            <div class="typography-column">
+              <h4 class="h4">Tipografia Primária</h4>
+              <figure class="typography-item">
+                <img src="./assets/images/font-primary.png" alt="Fonte primária da marca">
+                <figcaption><strong>Montserrat Bold</strong> — utilizada em títulos e logotipo.</figcaption>
+              </figure>
+            </div>
+        
+            <div class="typography-column">
+              <h4 class="h4">Tipografia Secundária</h4>
+              <figure class="typography-item">
+                <img src="./assets/images/font-secondary.png" alt="Fonte secundária da marca">
+                <figcaption><strong>Open Sans Regular</strong> — utilizada em textos corridos e materiais digitais.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        
 
       </article>
 
@@ -598,10 +628,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="aplicações">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Aplicação em Mockups</h2>
         </header>
 
         <section class="projects">
@@ -609,19 +639,27 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>Todos</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Papel Timbrado</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Uniformes e Camisetas</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Fachada</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Website e App</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Caneca e Embalagens</button>
             </li>
 
           </ul>
@@ -630,7 +668,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value>Selecionar Categoria</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -641,19 +679,27 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item>Todos</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Papel Timbrado</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Uniformes e Camisetas</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Fachada</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Website e App</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Caneca e Embalagens</button>
               </li>
 
             </ul>
@@ -1061,7 +1107,7 @@
 
       </article>
 
-    </div>
+    </section>
 
   </main>
 
