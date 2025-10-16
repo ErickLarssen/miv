@@ -1126,10 +1126,6 @@ main {
   background: rgb(12, 27, 43);
 }
 
-.filter-list {
-  display: none;
-}
-
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
@@ -1300,10 +1296,77 @@ main {
   font-weight: var(--fw-300);
 }
 
+/*-----------------------------------*\
+  #MENSAGEM FINAL / ASSINATURA DA MARCA
+\*-----------------------------------*/
+
+.final-message {
+  background: rgb(12, 27, 43);
+  padding-bottom: 50px;
+}
+
+.brand-signature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.signature-box {
+  max-width: 800px;
+  margin: 0 20px;
+  padding: 40px 20px;
+  background: var(--eerie-black-2);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.final-text {
+  color: var(--white-1);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-300);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.final-text strong {
+  color: var(--orange-yellow-crayola);
+  font-weight: var(--fw-500);
+}
+
+.final-text.emphasis {
+  font-size: var(--fs-4);
+  margin-top: 30px;
+}
+
+.signature-image-box {
+  margin: 40px auto 20px auto;
+  width: 180px;
+  height: auto;
+}
+
+.signature-image-box img {
+  width: 100%;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
+}
+
+.signature-name {
+  color: var(--white-2);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-500);
+  margin-top: 10px;
+}
+
+.signature-year {
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  margin-top: 8px;
+}
 
 /*-----------------------------------*\
   #BLOG
-\*-----------------------------------*/
+
 .blog {
   background: rgb(12, 27, 43);
 }
@@ -1395,6 +1458,7 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+\*-----------------------------------*/
 
 /*-----------------------------------*\
   #CONTACT
@@ -2033,9 +2097,6 @@ textarea.form-input::-webkit-resizer {
 }
 
 
-
-
-
 /**
  * responsive larger than 1024px screen
  */
@@ -2313,8 +2374,22 @@ textarea.form-input::-webkit-resizer {
 }
 
 /*-----------------------------------*\
-  #AJUSTES PARA DISPOSITIVOS MÓVEIS (até 480px)
+  #AJUSTES PARA DISPOSITIVOS MÓVEIS (até 600px - 480px)
 \*-----------------------------------*/
+@media (max-width: 600px) {
+  .signature-box {
+    padding: 30px 15px;
+  }
+
+  .final-text {
+    font-size: var(--fs-6);
+  }
+
+  .signature-image-box {
+    width: 140px;
+  }
+}
+
 @media (max-width: 480px) {
   .logo-box img {
     width: 60px;
