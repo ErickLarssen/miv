@@ -779,6 +779,64 @@ main{
 
 /* Fim do Margem de Segurança / Redução Máxima */
 
+/* Tons de Cinza */
+
+.tons-cinza{
+  margin-top: 60px;
+}
+
+.tons-titulo{
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tons-exemplos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tons-exemplo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ton-lista{
+  display: grid;
+  gap: 20px;
+}
+
+.ton-item .titulo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ton-progresso-bg{
+  width: 100%;
+  height: 8px;
+  background-color: var(--cinza-claro, #e0e0e0);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ton-progresso-fill{
+  height: 100%;
+  background: linear-gradient(to right, var(--amarelo-alaranjado), var(--vegas-gold));
+  border-radius: 8px 0 0 8px;
+  transition: width 0.4s ease;
+}
+
+/* Fim do Tons de Cinza */
+
 /* --------------------------------- */
         /* Fim do DETALHES - Paleta de Cores, Variações, Margem de Segurança, Redução Máxima, Tons de Cinza, Versões Monocromáticas, Usos Incorretos e Tipografia */
 /* --------------------------------- */
