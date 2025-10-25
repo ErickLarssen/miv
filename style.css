@@ -474,6 +474,7 @@ main{
 .inspiracao-texto p{
   margin-bottom: 15px;
 }
+/* Fim do Inspiração */
 
 /* Serviços (Áreas de Atuação) */
 .servicos{
@@ -530,16 +531,19 @@ main{
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+/* Fim do Serviços (Áreas de Atuação) */
 
 /* --------------------------------- */
         /*  Fim do SOBRE - Inspiração, Área de Atuação */
 /* --------------------------------- */
 
 /* --------------------------------- */
-        /* DETALHES - Paleta de Cores, Variações, Tons de Cinza, Versões Monocromáticas e Usos Incorretos */
+        /* DETALHES - Paleta de Cores, Variações, Margem de Segurança, Redução Máxima, Tons de Cinza, Versões Monocromáticas, Usos Incorretos e Tipografia */
 /* --------------------------------- */
 
+/* Paleta de Cores */
 .paleta{
+  padding-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -591,6 +595,7 @@ main{
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+/* Fim do Paleta de Cores */
 
 /* Modal Paleta de Cores */
 .modal-container{
@@ -704,7 +709,76 @@ main{
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+/* Fim do Modal Paleta de Cores */
+
+/* Variações do Logo */
+.variacoes{
+  margin-bottom: 15px;
+}
+
+.variacoes-lista{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.variacoes-item{
+  min-width: 50%;
+  scroll-snap-align: start;
+}
+
+.variacoes-item img{
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+}
+
+.variacoes-item img:hover{
+  filter: grayscale(0);
+}
+/* Fim do Variações do Logo */
+
+/* Margem de Segurança / Redução Máxima */
+.margem-seguranca,
+.reducao-maxima{
+  margin-bottom: 30px;
+}
+
+.margem-seguranca .titulo-wrapper,
+.reducao-maxima .titulo-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.margem-image,
+.reducao-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px auto;
+}
+
+.margem-image img,
+.reducao-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--sombra-3);
+}
+
+/* Fim do Margem de Segurança / Redução Máxima */
 
 /* --------------------------------- */
-        /* Fim do DETALHES - Paleta de Cores, Variações, Tons de Cinza, Versões Monocromáticas e Usos Incorretos */
+        /* Fim do DETALHES - Paleta de Cores, Variações, Margem de Segurança, Redução Máxima, Tons de Cinza, Versões Monocromáticas, Usos Incorretos e Tipografia */
 /* --------------------------------- */
