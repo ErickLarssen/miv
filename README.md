@@ -1,6 +1,6 @@
 # 🎨 MIV – Elarssen Code Solutions
 
-![Preview do Projeto](./assets/images/tela1.png)
+![Preview do Projeto](/assets/images/tela1.png)
 
 > Um Manual de Identidade Visual **interativo, responsivo e moderno**, criado para apresentar a identidade da marca **Elarssen Code Solutions** de forma elegante, funcional e digital, combinando design e código em uma experiência única.
 
